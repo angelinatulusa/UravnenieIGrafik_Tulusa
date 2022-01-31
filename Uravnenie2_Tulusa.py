@@ -120,7 +120,7 @@ zagolovok.pack()
 
 grafik=Button(f1,text="График",font="Arial 20",bg="green",command=graafik)
 grafik.pack(side=RIGHT)
-reshit=Button(f1,text="Решить",font="Arial 20",width=7,bg="green")
+reshit=Button(f1,text="Решить",font="Arial 20",width=7,bg="green",command=lahenda)
 reshit.pack(side=RIGHT)
 
 x2=Entry(f1,width=3,font="Arial 20",fg="blue",bg="lightblue", justify=CENTER)#x v kvadrate
